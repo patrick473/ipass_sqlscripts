@@ -1,0 +1,16 @@
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'patrick473','patrick','kottman','glennhof 11','3402zt','ijsselstein','nederland','1999-06-19','patkottman@gmail.com',0641799784,'wachtwoord',true,'NL10RABO5275532364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'jhenning778','john','henning','glennhof 12','3402zs','ijsselstein','nederland','1999-06-20','jhenning778@gmail.com',0641766784,'wachtwoord',true,'NL10RABO5279532364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'tmaters','thomas','maters','walenburg 453','3620as','huissen','nederland','1996-04-16','tmaters@gmail.com',0648799784,'wachtwoord',false,'NL10RABO5215532364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'target5','lars','wassink','wijnbesstraat 2','3274zt','doornenburg','nederland','1992-09-27','lwassink@gmail.com',0648999784,'wachtwoord',true,'NL10RABO5275537984');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'bmoerkerk','bjorn','moerkerk','thorbeckelaan 50','3532zt','haalderen','nederland','1993-01-19','bmoerkerk@gmail.com',0660382784,'wachtwoord',true,'NL10RABO5897532364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'tsiebenheller','tobias','siebenheller','vlampijpstraat 3','3489zt','huissen','nederland','1997-04-28','tsiebenheller@gmail.com',0641766784,'wachtwoord',true,'NL10RABO5275898364');
+
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'cwoudenberg','chris','woudenberg','laan van chartrouse 99','5347ty','ijsselstein','nederland','1999-08-24','cwoudenberg@gmail.com',0644569784,'wachtwoord',true,'NL10RABO5275853364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'jstolk','jelle','stolk','amandelstraat 34','3670fg','nieuwegein','nederland','1997-03-01','jstolk@gmail.com',0641799784,'wachtwoord',true,'NL10RABO5242532364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'jozinga','joris','ozinga','wattlaan 78','4864fr','ijsselstein','nederland','1995-03-20','jozinga@gmail.com',0641797774,'wachtwoord',true,'NL10RABO5275531244');
+
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'nickvdv','nick','van de voorst','isotopenweg 1','7645hf','ijsselstein','nederland','1978-10-01','nvdvoorst@gmail.com',0641757684,'wachtwoord',true,'NL10RABO5275234364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'rverkerk','robert','verkerk','lelimanstraat 77','5656gg','nieuwegein','nederland','1997-05-12','rverkerk@gmail.com',0689799784,'wachtwoord',true,'NL10RABO5275790364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'jverkerk','jeroen','verkerk','lelimanstraat 77','5656gg','nieuwegein','nederland','1998-09-26','jverkerk@gmail.com',0641755784,'wachtwoord',true,'NL10RABO5278972364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'shofstede','sander','hofstede','prins bernhardlaan 4','7423vd','ijsselstein','nederland','1967-08-20','shofstede@gmail.com',0641799904,'wachtwoord',true,'NL10RABO5273332364');
+insert into gebruiker values(nextval('gebruiker_sequence')  ,'wvdoorn','wesley','van doorn','martin ovenweg 88','8242jh','ijsselstein','nederland','1945-10-12','wvdoorn@gmail.com',0641439784,'wachtwoord',true,'NL10RABO5674532364');

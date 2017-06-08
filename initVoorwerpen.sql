@@ -1,0 +1,1 @@
+insert into voorwerp values(nextval('voorwerp_sequence'), 'titel', 'beschrijving',startprijs,'betalingswijze',begintijd,eindtijd,verzendkosten,verzendinstructie,verkoper,koper,veilinggesloten,verkoopprijs,rubriek);
