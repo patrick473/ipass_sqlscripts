@@ -115,3 +115,5 @@ insert into rubriek values (nextval('rubriek_sequence'),'kabels'  ,47  );
 insert into rubriek values (nextval('rubriek_sequence'),'Elektronica | Overig'  ,47  );
 --53
 insert into rubriek values (nextval('rubriek_sequence'), 'Overig' ,null );
+--54
+insert into rubriek values (nextval('rubriek_sequence'), 'Overig | alle' ,53 );

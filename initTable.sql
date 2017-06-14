@@ -16,7 +16,7 @@ create table Gebruiker(
 	bankNummer char(18),
 
     primary key (gebruikersId)
- 
+
 );
 
 
@@ -40,16 +40,16 @@ create table Voorwerp(
 	voorwerpNummer int not null,
 	titel varchar(30) not null,
 	beschrijving varchar(500)  not null,
-	startPrijs money not null,
+	startPrijs numeric(38,2) not null,
 	BetalingsWijze varchar(40) not null,
 	beginTijd timestamp  not null,
 	eindtijd timestamp ,
-	verzendKosten money,
+	verzendKosten numeric(38,2),
 	verzendInstructie varchar(60),
 	verkoper int not null,
 	koper int,
 	veilingGesloten boolean not null,
-	verkoopPrijs money,
+	verkoopPrijs numeric(38,2),
 	rubriek int not null,
     primary key (voorwerpNummer),
 
@@ -62,12 +62,12 @@ create table Bod(
 -- columns
 	bodId int not null,
     voorwerp int  not null ,
-    bodBedrag money  not null ,
+    bodBedrag numeric(38,2)  not null ,
     gebruiker int  not null,
     bodTijd timestamp not null,
 
     primary key(bodId),
-   
+
     foreign key (voorwerp) references voorwerp (voorwerpNummer),
     foreign key (gebruiker) references gebruiker (gebruikersId)
 );
