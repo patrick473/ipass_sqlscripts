@@ -38,8 +38,8 @@ create table Voorwerp(
 
  --columns
 	voorwerpNummer int not null,
-	titel varchar(30) not null,
-	beschrijving varchar(500)  not null,
+	titel varchar(60) not null,
+	beschrijving varchar(1000)  not null,
 	startPrijs numeric(38,2) not null,
 	BetalingsWijze varchar(40) not null,
 	beginTijd timestamp  not null,
